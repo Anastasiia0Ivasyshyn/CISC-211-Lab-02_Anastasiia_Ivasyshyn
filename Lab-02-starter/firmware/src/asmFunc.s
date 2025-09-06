@@ -55,11 +55,7 @@ asmFunc:
     push {r4-r11,LR}
     
     /*** STUDENTS: Place your code BELOW this line!!! **************/
-    .global asmFunc
-asmFunc:
-    ADD r0, r0, r1    @ r0 = r0 + r1
-    BX  lr            @ return (value already in r0)
-
+    ADD r0, r0, r1      @ r0 = r0 + r1
     /*** STUDENTS: Place your code ABOVE this line!!! **************/
     
     /* restore the caller's registers, as required by the 
